@@ -5,6 +5,7 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 
 img {
@@ -16,4 +17,17 @@ img {
 nav {
     padding-top: 20px;
     text-align: center;
+}
+
+#aside {
+    position: absolute;
+    right: 0;
+    top: 245px;
+    z-index: 1;
+    width: 30%;
+    
+}
+
+article {
+    width: 50%;
 }
