@@ -9,8 +9,12 @@ body {
 }
 
 img {
-    width: 100px;
+    width: 150px;
     margin: 10px;
+    border-radius: 10%;
+    border: rgb(34, 77, 34) solid;
+    padding: 10px;
+
     
 }
 
@@ -22,12 +26,36 @@ nav {
 #aside {
     position: absolute;
     right: 0;
-    top: 245px;
+    top: 320px;
     z-index: 1;
     width: 30%;
+    border: 5px solid rgb(34, 77, 34);
+    font-size: 20px;
+    color: rgb(34, 77, 34);
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
 article {
     width: 50%;
+}
+
+table, td, th {
+    border: 3px solid rgb(34, 77, 34);
+}
+
+h1 {
+    color: rgb(34, 77, 34);
+
+}
+
+.lado-direito {
+    
+    margin-left: 200px;
+}
+
+.lado-esquerdo {
+    float: left;
+    margin-right: 10px;
 }
